@@ -1,0 +1,87 @@
+*{
+    box-sizing:border-box ;
+}
+.header .logo img{
+    width: 200px;
+    margin-bottom: 10px;
+}
+.clear{
+    clear: both;
+}
+.header .menu{
+    background-color: burlywood;
+    margin-bottom: 10px;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu ul li{
+    margin: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px; 
+    color: green;
+
+
+}
+.hinhto{
+    background-image: url("https://media.tapchitaichinh.vn/w1480/images/upload/buituananh/04012019/starbucks-apologizes-arrest.jpg");
+    height: 550px;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center center;
+}
+.intro__text span{
+    color: green;
+    font-weight: bold;
+}
+.intro__left{
+    float: left;
+    width: 50%;
+}
+.intro__right{
+    float: left;
+    width: 50%;
+}
+.intro__smallitem{
+    float: left;
+    width: 50%;
+}
+.intro__item{
+    padding: 0 15px 25px;    
+}
+.intro__item img{
+    width: 100%;
+    display: block;
+}
+
+.product .sanpham__items{
+    float: left;
+    width: 25%;
+    padding:10px;
+}
+.sanpham__items h3{
+    font-size: 27px;
+}
+.sanpham__items p{
+    font-size: 18px;
+}
+.sanpham__items button{
+    border:1px solid red;
+    background-color: red;
+    color:white;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.product h2{
+    text-align: center;
+    font-size: 30px;
+}
+.sanpham__items img{
+    width: 300px;
+}
+
